@@ -1,0 +1,457 @@
+:root{
+    --bg: #0b1529;
+    --bgSoft: #1f3050;
+    --text: #dee4eb;
+    --textSoft: #cbd2d9;
+}
+
+*{
+    margin: 0; /* "*" This is a CSS universal selector, which applies styles to all elements in the HTML document.*/
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth; /*for smooth scrool*/
+}
+
+body{
+    background-color: #eff4fd;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Nav bar start*/
+
+.navigationheader{
+    background-color: rgba(239,244,253,0.9);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    backdrop-filter: blur(3px);
+    top: 0;
+    z-index: 1000;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;  /* auto centers nav */
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block; /* harahata display wena eka*/
+    list-style: none; 
+    margin: 10px 20px; /*values are in clockwise order, beginning at the top: top, right, bottom, then left */
+}
+
+nav ul li a{
+    text-decoration: none; /*link eka yata ira ain kra*/
+    color: #000;
+    font-weight: bold;
+}
+
+/*Hamberger menu start*/
+
+.sidebar{
+    position: fixed;
+    top: 0; 
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(100px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+.menu-button{
+    display: none;
+}
+
+@media(max-width: 866px){
+    .hideOnMobile{
+      display: none;
+    }
+    .menu-button{
+      display: block;
+    }
+}
+
+@media(max-width: 400px){
+    .sidebar{
+      width: 100%;
+    }
+}
+
+/*Hamberger menu end*/
+
+a:hover{
+    color: #ba70f3;
+}
+
+.Contact{
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    color: #eff4fd;
+    border: 2px solid #ba70f3;
+    background-color: #ba70f3;
+}
+
+.Contact:hover{
+    background-color: transparent;
+    color: #ba70f3;
+}
+
+/*Nav bar end*/
+
+/*footer start*/
+.footer{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*footer end*/
+
+
+/*Preloader styles start*/
+
+.cssanimation{
+    width: 70px;
+    aspect-ratio: 1;
+    --c: no-repeat linear-gradient(#ba70f3 0 0);
+    background:
+    var(--c) 0% 50%,
+    var(--c) 50% 50%,
+    var(--c) 100% 50%;
+    background-size: 20% 100%;
+    animation: l1 1s infinite linear;
+    }
+
+    @keyframes l1{
+    0% {background-size: 20% 100%,20% 100%,20% 100%}
+    33% {background-size: 20% 10% ,20% 100%,20% 100%}
+    50% {background-size: 20% 100%,20% 10% ,20% 100%}
+    66% {background-size: 20% 100%,20% 100%,20% 10% }
+    100%{background-size: 20% 100%,20% 100%,20% 100%}
+    }
+
+.pre-loader{
+    position: fixed;
+    z-index: 1001; /** make sure this is the highest value compared to all other divs **/
+    top: 0;
+    left: 0;
+    background: #eff4fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.pre-loader.hidden{
+    animation: fadeOut 2s; /** change to 1s */
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut{
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/*Preloader styles end*/
+
+.maincontainer{
+    position: relative;
+    top: 100px;
+    max-width: 1366px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* LIST START */
+
+.listItem{
+    display: flex;
+    margin-left: 65px;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+  
+.listItemImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+.listItemTexts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.listItemDetail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+  
+.listItemAvatar{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
+.listItemCategories {
+    display: flex;
+    gap: 10px;
+}
+  
+.listItemCategory{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ba70f3;
+    color: white;
+    font-size: 14px;
+}
+
+.listItemCategory:hover{
+  background-color: #e7dfec;
+  color: #ba70f3;
+}
+  
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+  
+.page-item{
+    border: 1px solid gray;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+  
+.page-item.active{
+    background-color: #ba70f3;
+    color: white;
+}
+
+.page-item.disabled{
+    background-color: #9fa3aa;
+    cursor: not-allowed;
+}
+  
+  /* LIST END */
+
+/* SINGLE START */
+
+.singleHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+  
+.singleHeadTexts{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  
+.singleHeadTitle{
+    font-size: 48px;
+}
+  
+.singleHeadDesc{
+    font-size: 20px;
+    font-weight: 300;
+}
+  
+.singleHeadDetail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+  
+  .singleAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
+  .singleCategory {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--bgSoft);
+    color: var(--textSoft);
+    font-size: 14px;
+}
+  
+.singleHeadImg {
+    flex: 1;
+    max-height: 350px;
+    object-fit: cover;
+}
+  
+.singleBottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
+}
+  
+.singleContent{
+    flex: 3;
+    font-size: 20px;
+    line-height: 32px;
+}
+  
+.singleContent p,
+.singleContent h1,
+.singleContent h2,
+.singleContent h3{
+    margin: 20px 0px;
+}
+  
+.singleContent img{
+    width: 100%;
+    object-fit: cover;
+}
+  
+.singleContent pre{
+    width: 100%;
+    overflow-x: scroll;
+    padding: 20px;
+}
+  
+.singleRightBar{
+    flex: 1;
+}
+  
+  /* SINGLE END */
+  
+/* RIGHTBAR START */
+
+.rightBar {
+    position: sticky;
+    top: 100px;
+  }
+  
+  .rightBarImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .rightBarImgHr {
+    display: none;
+  }
+  
+  /* RIGHTBAR END */
+
+  
+  @media (max-width: 1536px) {
+    .container {
+      max-width: 1366px;
+    }
+  }
+  @media (max-width: 1366px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .singleHeadImg {
+      display: none;
+    }
+  
+    .singleBottom {
+      flex-direction: column-reverse;
+    }
+  
+    .rightBarImg {
+      display: none;
+    }
+  
+    .rightBarImgHr {
+      display: block;
+      width: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+    .links {
+      font-size: 14px;
+    }
+  
+    .listItemImage {
+      display: none;
+    }
+  
+    .searchButton span{
+      display: none;
+    }
+
+    .listItem{
+      margin-left: 0px;
+    }
+  }
+  @media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+  }
