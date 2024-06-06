@@ -390,6 +390,16 @@ a:hover{
   
   /* RIGHTBAR END */
 
+  /*Terms page*/
+  .terms{
+    min-height: 100vh;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /*Terms end*/
+
   
   @media (max-width: 1536px) {
     .container {
