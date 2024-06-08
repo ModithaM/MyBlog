@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog</title>
-    <link>https://moditham.github.io/MyBlog/</link>
+    <link>http://localhost:1313/MyBlog/</link>
     <description>Recent content on Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Jun 2024 01:51:13 +0530</lastBuildDate>
-    <atom:link href="https://moditham.github.io/MyBlog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/MyBlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://moditham.github.io/MyBlog/posts/my-first-post-copy-10/</link>
+      <link>http://localhost:1313/MyBlog/posts/my-first-post-copy-10/</link>
       <pubDate>Tue, 04 Jun 2024 01:51:13 +0530</pubDate>
-      <guid>https://moditham.github.io/MyBlog/posts/my-first-post-copy-10/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/my-first-post-copy-10/</guid>
       <description></description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://moditham.github.io/MyBlog/posts/my-first-post-copy-3/</link>
+      <link>http://localhost:1313/MyBlog/posts/my-first-post-copy-3/</link>
       <pubDate>Tue, 04 Jun 2024 01:51:13 +0530</pubDate>
-      <guid>https://moditham.github.io/MyBlog/posts/my-first-post-copy-3/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/my-first-post-copy-3/</guid>
       <description></description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://moditham.github.io/MyBlog/posts/my-first-post-copy-4/</link>
+      <link>http://localhost:1313/MyBlog/posts/my-first-post-copy-4/</link>
       <pubDate>Tue, 04 Jun 2024 01:51:13 +0530</pubDate>
-      <guid>https://moditham.github.io/MyBlog/posts/my-first-post-copy-4/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/my-first-post-copy-4/</guid>
       <description></description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://moditham.github.io/MyBlog/posts/my-first-post-copy-7/</link>
+      <link>http://localhost:1313/MyBlog/posts/my-first-post-copy-7/</link>
       <pubDate>Tue, 04 Jun 2024 01:51:13 +0530</pubDate>
-      <guid>https://moditham.github.io/MyBlog/posts/my-first-post-copy-7/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/my-first-post-copy-7/</guid>
       <description></description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://moditham.github.io/MyBlog/posts/my-first-post-copy-8/</link>
+      <link>http://localhost:1313/MyBlog/posts/my-first-post-copy-8/</link>
       <pubDate>Tue, 04 Jun 2024 01:51:13 +0530</pubDate>
-      <guid>https://moditham.github.io/MyBlog/posts/my-first-post-copy-8/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/my-first-post-copy-8/</guid>
       <description></description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://moditham.github.io/MyBlog/posts/my-first-post-copy-9/</link>
+      <link>http://localhost:1313/MyBlog/posts/my-first-post-copy-9/</link>
       <pubDate>Tue, 04 Jun 2024 01:51:13 +0530</pubDate>
-      <guid>https://moditham.github.io/MyBlog/posts/my-first-post-copy-9/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/my-first-post-copy-9/</guid>
       <description></description>
     </item>
     <item>
       <title>My Second Post</title>
-      <link>https://moditham.github.io/MyBlog/posts/my-first-post-copy-5/</link>
+      <link>http://localhost:1313/MyBlog/posts/my-first-post-copy-5/</link>
       <pubDate>Tue, 04 Jun 2024 01:51:13 +0530</pubDate>
-      <guid>https://moditham.github.io/MyBlog/posts/my-first-post-copy-5/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/my-first-post-copy-5/</guid>
       <description></description>
     </item>
     <item>
       <title>My Third Post</title>
-      <link>https://moditham.github.io/MyBlog/posts/my-first-post-copy-6/</link>
+      <link>http://localhost:1313/MyBlog/posts/my-first-post-copy-6/</link>
       <pubDate>Tue, 04 Jun 2024 01:51:13 +0530</pubDate>
-      <guid>https://moditham.github.io/MyBlog/posts/my-first-post-copy-6/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/my-first-post-copy-6/</guid>
       <description></description>
     </item>
   </channel>

@@ -273,14 +273,19 @@ a:hover{
 .page-item.active{
     background-color: #ba70f3;
     color: white;
+    cursor: default;
 }
 
 .page-item.disabled{
-    background-color: #9fa3aa;
     cursor: not-allowed;
 }
-  
-  /* LIST END */
+
+.page-item:hover{
+  background-color: #e7dfec;
+  color: #ba70f3;
+}
+
+/* LIST END */
 
 /* SINGLE START */
 
@@ -313,19 +318,24 @@ a:hover{
     gap: 20px;
 }
   
-  .singleAvatar {
+.singleAvatar{
     width: 50px;
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
 }
   
-  .singleCategory {
+.singleCategory{
     padding: 5px;
     border-radius: 5px;
-    background-color: var(--bgSoft);
-    color: var(--textSoft);
+    background-color: #ba70f3;
+    color: white;
     font-size: 14px;
+}
+
+.singleCategory:hover{
+  background-color: #e7dfec;
+  color: #ba70f3;
 }
   
 .singleHeadImg {
@@ -392,7 +402,7 @@ a:hover{
 
   /*Terms page*/
   .terms{
-    min-height: 100vh;
+    min-height: 70vh;
     margin-left: 75px;
     display: flex;
     flex-direction: column;

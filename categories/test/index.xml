@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Test on Blog</title>
-    <link>https://moditham.github.io/MyBlog/categories/test/</link>
+    <link>http://localhost:1313/MyBlog/categories/test/</link>
     <description>Recent content in Test on Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Jun 2024 01:51:13 +0530</lastBuildDate>
-    <atom:link href="https://moditham.github.io/MyBlog/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/MyBlog/categories/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://moditham.github.io/MyBlog/posts/my-first-post-copy-10/</link>
+      <link>http://localhost:1313/MyBlog/posts/my-first-post-copy-10/</link>
       <pubDate>Tue, 04 Jun 2024 01:51:13 +0530</pubDate>
-      <guid>https://moditham.github.io/MyBlog/posts/my-first-post-copy-10/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/my-first-post-copy-10/</guid>
       <description></description>
     </item>
   </channel>
