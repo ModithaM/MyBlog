@@ -11,6 +11,13 @@ function hideSidebar()
     sidebar.style.display = 'none'
 }
 
+// to get current year
+function getYear() {
+  var currentDate = new Date();
+  var currentYear = currentDate.getFullYear();
+  document.querySelector(".displayYear").innerHTML = currentYear;
+}
+
 
 //day night mode
 const mode = localStorage.getItem("mode") || "";

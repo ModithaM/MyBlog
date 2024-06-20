@@ -290,10 +290,14 @@ a:hover{
 /* SINGLE START */
 
 .singleHead{
+    max-width: 1000px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
   
 .singleHeadTexts{
@@ -301,6 +305,12 @@ a:hover{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+img.singleHeadImg{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
   
 .singleHeadTitle{
@@ -348,10 +358,14 @@ a:hover{
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
   
 .singleContent{
+    max-width: 1000px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     flex: 3;
     font-size: 20px;
     line-height: 32px;
@@ -469,6 +483,17 @@ a:hover{
     .listItem{
       margin-left: 0px;
     }
+    .maincontainer{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .singleHeadTitle{
+      font-size: 38px;
+  }
+  .singleHeadDesc{
+    font-size: 15px;
+  }
+
   }
   @media (max-width: 640px) {
     .container {

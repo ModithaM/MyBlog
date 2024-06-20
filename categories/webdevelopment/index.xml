@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog</title>
-    <link>https://moditham.github.io/MyBlog/</link>
-    <description>Recent content on Blog</description>
+    <title>WebDevelopment on Blog</title>
+    <link>https://moditham.github.io/MyBlog/categories/webdevelopment/</link>
+    <description>Recent content in WebDevelopment on Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jun 2024 22:41:01 +0530</lastBuildDate>
-    <atom:link href="https://moditham.github.io/MyBlog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://moditham.github.io/MyBlog/categories/webdevelopment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Made My Portfolio Website</title>
       <link>https://moditham.github.io/MyBlog/posts/how-i-made-my-portfolio-website/</link>
       <pubDate>Thu, 20 Jun 2024 22:41:01 +0530</pubDate>
       <guid>https://moditham.github.io/MyBlog/posts/how-i-made-my-portfolio-website/</guid>
       <description>As a software engineering student, having a portfolio website is essential. It&amp;rsquo;s a way to showcase your skills, projects, and experiences to potential employers and collaborators. In this blog post, I&amp;rsquo;ll walk you through the process of how I created my portfolio website.&#xA;Introduction and Motivation Creating a portfolio website is a must for every software engineering student. It serves as a platform to display your work, share your knowledge through a blog, and provide a way for people to contact you.</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://moditham.github.io/MyBlog/posts/my-first-post-copy-3/</link>
-      <pubDate>Tue, 04 Jun 2024 01:51:13 +0530</pubDate>
-      <guid>https://moditham.github.io/MyBlog/posts/my-first-post-copy-3/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://moditham.github.io/MyBlog/posts/my-first-post-copy-4/</link>
-      <pubDate>Tue, 04 Jun 2024 01:51:13 +0530</pubDate>
-      <guid>https://moditham.github.io/MyBlog/posts/my-first-post-copy-4/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
