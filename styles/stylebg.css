@@ -448,7 +448,8 @@ img.singleHeadImg{
     }
   
     .singleHeadImg {
-      display: none;
+      max-width: 100%;
+      height: auto;
     }
   
     .singleBottom {
