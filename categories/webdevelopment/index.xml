@@ -6,8 +6,15 @@
     <description>Recent content in WebDevelopment on Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jun 2024 22:41:01 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2024 23:33:40 +0530</lastBuildDate>
     <atom:link href="https://moditham.github.io/MyBlog/categories/webdevelopment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Easily Add a Contact Form to Your HTML/CSS Static Portfolio Website</title>
+      <link>https://moditham.github.io/MyBlog/posts/contact-form-using-the-web3forms-api/</link>
+      <pubDate>Thu, 11 Jul 2024 23:33:40 +0530</pubDate>
+      <guid>https://moditham.github.io/MyBlog/posts/contact-form-using-the-web3forms-api/</guid>
+      <description>Creating a contact form for my personal blog without a backend can be challenging. However, by using the Web3Forms API, I could easily set up a functional and customizable contact form. In this post, I&amp;rsquo;ll walk you through the steps I took to integrate Web3Forms into my HTML/CSS portfolio.&#xA;Why Web3Forms? I chose Web3Forms because it&amp;rsquo;s a free service that allows you to receive HTML contact form submissions directly in your email inbox without any server or backend code.</description>
+    </item>
     <item>
       <title>How I Made My Portfolio Website</title>
       <link>https://moditham.github.io/MyBlog/posts/how-i-made-my-portfolio-website/</link>
