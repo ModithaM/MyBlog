@@ -91,6 +91,9 @@ nav ul li a{
     .menu-button{
       display: block;
     }
+    .singleContent{
+      max-width: 100%;
+    }
 }
 
 @media(max-width: 400px){
