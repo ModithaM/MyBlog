@@ -363,6 +363,10 @@ img.singleHeadImg{
     gap: 50px;
     margin-top: 10px;
 }
+
+.highlight{
+  max-width: 100%;
+}
   
 .singleContent{
     max-width: 1000px;
