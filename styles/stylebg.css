@@ -94,6 +94,9 @@ nav ul li a{
     .singleContent{
       max-width: 100%;
     }
+    .highlight{
+      max-width: 80vw;
+    }
 }
 
 @media(max-width: 400px){
@@ -364,9 +367,6 @@ img.singleHeadImg{
     margin-top: 10px;
 }
 
-.highlight{
-  max-width: 100%;
-}
   
 .singleContent{
     max-width: 1000px;
