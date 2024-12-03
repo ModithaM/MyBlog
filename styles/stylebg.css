@@ -16,7 +16,8 @@ html{
 }
 
 body{
-    background-color: #eff4fd;
+  background-image: url(../images/bg.webp);
+  background-repeat:repeat;
 }
 
 a{
@@ -26,7 +27,8 @@ a{
 /*Nav bar start*/
 
 .navigationheader{
-    background-color: rgba(239,244,253,0.9);
+    background-image: url(../images/bg.webp);
+    background-repeat:repeat;
     width: 100%;
     height: 80px;
     position: fixed;
@@ -51,7 +53,7 @@ nav ul li{
 }
 
 nav ul li a{
-    text-decoration: none; /*link eka yata ira ain kra*/
+    text-decoration: none;
     color: #000;
     font-weight: bold;
 }
@@ -111,18 +113,61 @@ a:hover{
     color: #ba70f3;
 }
 
-.Contact{
-    padding: 10px 10px 10px 10px;
-    border-radius: 20px;
-    color: #eff4fd;
-    border: 2px solid #ba70f3;
-    background-color: #ba70f3;
+.button-79 {
+  backface-visibility: hidden;
+  background: #ba70f3;
+  border: 0;
+  border-radius: .375rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+  padding: 12px 10px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-.Contact:hover{
-    background-color: transparent;
-    color: #ba70f3;
+.button-79:not(:disabled):hover {
+  transform: scale(1.05);
 }
+
+.button-79:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+.button-79:focus {
+  outline: 0 solid transparent;
+}
+
+.button-79:focus:before {
+  border-width: .125rem;
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.button-79:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.button-79:not(:disabled):active {
+  transform: translateY(.125rem);
+}
+
 
 /*Nav bar end*/
 
