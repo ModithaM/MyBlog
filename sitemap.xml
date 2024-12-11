@@ -2,34 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://moditham.github.io/MyBlog/authors/</loc>
+    <loc>http://localhost:1313/MyBlog/authors/</loc>
+    <lastmod>2024-12-04T00:10:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/</loc>
+    <lastmod>2024-12-04T00:10:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/</loc>
+    <lastmod>2024-12-04T00:10:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/categories/general/</loc>
+    <lastmod>2024-12-04T00:10:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/authors/moditha-marasingha/</loc>
+    <lastmod>2024-12-04T00:10:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/posts/</loc>
+    <lastmod>2024-12-04T00:10:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/posts/github-foundation-certificatio/</loc>
+    <lastmod>2024-12-04T00:10:12+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MyBlog/posts/contact-form-using-the-web3forms-api/</loc>
     <lastmod>2024-07-11T23:33:40+05:30</lastmod>
   </url><url>
-    <loc>https://moditham.github.io/MyBlog/</loc>
+    <loc>http://localhost:1313/MyBlog/categories/webdevelopment/</loc>
     <lastmod>2024-07-11T23:33:40+05:30</lastmod>
   </url><url>
-    <loc>https://moditham.github.io/MyBlog/categories/</loc>
-    <lastmod>2024-07-11T23:33:40+05:30</lastmod>
-  </url><url>
-    <loc>https://moditham.github.io/MyBlog/posts/contact-form-using-the-web3forms-api/</loc>
-    <lastmod>2024-07-11T23:33:40+05:30</lastmod>
-  </url><url>
-    <loc>https://moditham.github.io/MyBlog/authors/moditha-marasingha/</loc>
-    <lastmod>2024-07-11T23:33:40+05:30</lastmod>
-  </url><url>
-    <loc>https://moditham.github.io/MyBlog/posts/</loc>
-    <lastmod>2024-07-11T23:33:40+05:30</lastmod>
-  </url><url>
-    <loc>https://moditham.github.io/MyBlog/categories/webdevelopment/</loc>
-    <lastmod>2024-07-11T23:33:40+05:30</lastmod>
-  </url><url>
-    <loc>https://moditham.github.io/MyBlog/posts/how-i-made-my-portfolio-website/</loc>
+    <loc>http://localhost:1313/MyBlog/posts/how-i-made-my-portfolio-website/</loc>
     <lastmod>2024-06-20T22:41:01+05:30</lastmod>
   </url><url>
-    <loc>https://moditham.github.io/MyBlog/categories/general/</loc>
-    <lastmod>2024-06-04T01:51:13+05:30</lastmod>
-  </url><url>
-    <loc>https://moditham.github.io/MyBlog/posts/my-first-post-copy-3/</loc>
+    <loc>http://localhost:1313/MyBlog/posts/my-first-post-copy-3/</loc>
     <lastmod>2024-06-04T01:51:13+05:30</lastmod>
   </url>
 </urlset>

@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Blog</title>
-    <link>https://moditham.github.io/MyBlog/posts/</link>
+    <link>http://localhost:1313/MyBlog/posts/</link>
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jul 2024 23:33:40 +0530</lastBuildDate>
-    <atom:link href="https://moditham.github.io/MyBlog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Dec 2024 00:10:12 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/MyBlog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlock Your GitHub Potential with the GitHub Foundation Certification</title>
+      <link>http://localhost:1313/MyBlog/posts/github-foundation-certificatio/</link>
+      <pubDate>Wed, 04 Dec 2024 00:10:12 +0530</pubDate>
+      <guid>http://localhost:1313/MyBlog/posts/github-foundation-certificatio/</guid>
+      <description>For university IT students, mastering Git and GitHub is essential to succeed in collaborative projects and build a strong foundation for a tech career. One fantastic opportunity that’s often overlooked is the GitHub Foundation Certification. It’s a free professional certification in the GitHub Student Developer Pack. Normally priced at $49, this certification is your ticket to validating your GitHub skills and standing out in the competitive tech world.&#xA;What Is the GitHub Foundation Certification?</description>
+    </item>
     <item>
       <title>How to Easily Add a Contact Form to Your HTML/CSS Static Portfolio Website</title>
-      <link>https://moditham.github.io/MyBlog/posts/contact-form-using-the-web3forms-api/</link>
+      <link>http://localhost:1313/MyBlog/posts/contact-form-using-the-web3forms-api/</link>
       <pubDate>Thu, 11 Jul 2024 23:33:40 +0530</pubDate>
-      <guid>https://moditham.github.io/MyBlog/posts/contact-form-using-the-web3forms-api/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/contact-form-using-the-web3forms-api/</guid>
       <description>Creating a contact form for my personal blog without a backend can be challenging. However, by using the Web3Forms API, I could easily set up a functional and customizable contact form. In this post, I&amp;rsquo;ll walk you through the steps I took to integrate Web3Forms into my HTML/CSS portfolio.&#xA;Why Web3Forms? I chose Web3Forms because it&amp;rsquo;s a free service that allows you to receive HTML contact form submissions directly in your email inbox without any server or backend code.</description>
     </item>
     <item>
       <title>How I Made My Portfolio Website</title>
-      <link>https://moditham.github.io/MyBlog/posts/how-i-made-my-portfolio-website/</link>
+      <link>http://localhost:1313/MyBlog/posts/how-i-made-my-portfolio-website/</link>
       <pubDate>Thu, 20 Jun 2024 22:41:01 +0530</pubDate>
-      <guid>https://moditham.github.io/MyBlog/posts/how-i-made-my-portfolio-website/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/how-i-made-my-portfolio-website/</guid>
       <description>As a software engineering student, having a portfolio website is essential. It&amp;rsquo;s a way to showcase your skills, projects, and experiences to potential employers and collaborators. In this blog post, I&amp;rsquo;ll walk you through the process of how I created my portfolio website.&#xA;Introduction and Motivation Creating a portfolio website is a must for every software engineering student. It serves as a platform to display your work, share your knowledge through a blog, and provide a way for people to contact you.</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://moditham.github.io/MyBlog/posts/my-first-post-copy-3/</link>
+      <link>http://localhost:1313/MyBlog/posts/my-first-post-copy-3/</link>
       <pubDate>Tue, 04 Jun 2024 01:51:13 +0530</pubDate>
-      <guid>https://moditham.github.io/MyBlog/posts/my-first-post-copy-3/</guid>
+      <guid>http://localhost:1313/MyBlog/posts/my-first-post-copy-3/</guid>
       <description></description>
     </item>
   </channel>
