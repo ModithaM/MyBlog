@@ -17,7 +17,7 @@ function getYear() {
   var currentYear = currentDate.getFullYear();
   document.querySelector(".displayYear").innerHTML = currentYear;
 }
-
+getYear();
 
 //day night mode
 const mode = localStorage.getItem("mode") || "";
